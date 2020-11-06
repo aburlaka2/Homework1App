@@ -19,7 +19,6 @@ namespace Homework1App
             bool result2 = double.TryParse(Console.ReadLine(), out double coefB);
             Console.WriteLine("Введите коэффициент C");
             bool result3 = double.TryParse(Console.ReadLine(), out double coefC);
-            Console.WriteLine ((Math.Pow(coefB, 2)) - 4 * coefA * coefC);
             if (result1 && result2 && result3)
             {
                 if (((Math.Pow(coefB, 2)) - 4 * coefA * coefC) > 0)
