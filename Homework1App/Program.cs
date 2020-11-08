@@ -75,6 +75,7 @@ namespace Homework1App
 
             //Закрытие//
             Console.WriteLine("Теперь вы можете нажать любую клавишу и закрыть программу");
+            Console.ReadKey();
            
 
            
